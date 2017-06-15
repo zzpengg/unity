@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\script\auto_des.cs">
+    <Files>
+      <File FileName="Assets\script\a123.cs" Line="1" Column="1" />
+      <File FileName="Assets\script\ray.cs" Line="10" Column="25" />
+      <File FileName="Assets\script\enemy_nav.cs" Line="18" Column="5" />
+      <File FileName="Assets\script\end.cs" Line="14" Column="28" />
+      <File FileName="Assets\script\menu.cs" Line="3" Column="35" />
+      <File FileName="Assets\script\auto_des.cs" Line="18" Column="17" />
+      <File FileName="Assets\script\create_enemy.cs" Line="18" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

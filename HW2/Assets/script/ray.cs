@@ -10,7 +10,7 @@ public class ray : MonoBehaviour {
 	public float fire_time;
 	public static float enemy_count;
 	public float call_enemy_count;
-	public static float money;
+	public static int money;
 	public static float enemy_wave;
 	public float next_enemy_time;
 	public GameObject menu;
@@ -68,10 +68,12 @@ public class ray : MonoBehaviour {
 		if (fire_time < time) {
 			fire.SetActive (false);
 		}
-		if(time >= 100){ // time large than 100
+		if(time >= 20){ // time large than 100
 			SceneManager.LoadScene(2); // success scene
+			PlayerPrefs.SetString("name4", "無名");
+			PlayerPrefs.SetInt("score4", money);
+			print(money);
 		}
-		print (next_enemy_time);
 		if( (time > next_enemy_time) && (time < (next_enemy_time + 1f) ) && call_enemy_count == -1){ // enemy count down
 			call_enemy_count = 1;
 			enemy_count = 10; // enemy_count setup

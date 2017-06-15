@@ -53,6 +53,7 @@
      <Compile Include="Assets\script\enemy_nav.cs" />
      <Compile Include="Assets\script\menu.cs" />
      <Compile Include="Assets\script\money.cs" />
+     <Compile Include="Assets\script\ranking.cs" />
      <Compile Include="Assets\script\ray.cs" />
      <Compile Include="Assets\script\time.cs" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
